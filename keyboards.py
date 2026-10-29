@@ -11,7 +11,6 @@ subscribe_kb = InlineKeyboardMarkup(inline_keyboard=[
 main_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="🤸‍♀️ Об учреждении", callback_data="about")],
     [InlineKeyboardButton(text="📍 Адреса учреждения", callback_data="addresses")],
-    [InlineKeyboardButton(text="💳 Платные услуги", url="https://school-kuznecov30.ru/platnyie_obrazovatielnyie_uslughi")],
     [InlineKeyboardButton(text="❓ Часто задаваемые вопросы", callback_data="support_menu")],
     [InlineKeyboardButton(text="📞 Справочная информация", callback_data="contacts")],
     [InlineKeyboardButton(text="💬 Остались вопросы? Напишите нам", url="https://pos.gosuslugi.ru/landing/")],
@@ -22,6 +21,7 @@ support_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="❓ Возраст приема", callback_data="question_1")],
     [InlineKeyboardButton(text="❓ Программы", callback_data="question_2")],
     [InlineKeyboardButton(text="❓ Вид спорта", callback_data="question_3")],
+    [InlineKeyboardButton(text="❓ Тренировочный процесс", callback_data="question_4")],
 ])
 
 # --- КНОПКА "НАЗАД" ДЛЯ ПОДМЕНЮ ---
